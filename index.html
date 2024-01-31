@@ -1,22 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="main.css">
 </head>
+
 <body>
     <div class="newbook-form">
-        <input type="text" class="newbook-form__input">
-        <input type="text" class="newbook-form__input">
-        <input type="text" class="newbook-form__input">
-        <input type="checkbox" class="newbook-form__input">
+        <input type="text" class="newbook-form__input" placeholder="author">
+        <input type="text" class="newbook-form__input" placeholder="title">
+        <input type="number" class="newbook-form__input" min="0">
+        <label for="checkbox">readed?</label>
+        <input type="checkbox" name="checkbox" id="checkbox" class="newbook-form__input">
         <button type="submit" id="newbook">Sumbit</button>
     </div>
     <main id="main-disp">
-        
+
     </main>
-    <script src="index.js" type="module" ></script>
+    <script src="index.js" type="module"></script>
 </body>
+
 </html>
